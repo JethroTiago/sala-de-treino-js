@@ -10,8 +10,8 @@ Este repositório contem códigos usados para praticar a linguagem de programaç
 ## Em desenvolvimento:
 
 * <strong>REACT</strong>
-* Manipulação do DOM
-* 
+* Manipulação do DOM;
+* Programação orientada de objetos;
 * 
 
 ## Aprendizados:
