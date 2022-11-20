@@ -5,6 +5,7 @@ class Negociacao {
         this._data = data;
         this._quantidade = quantidade;
         this._valor = valor;
+        Object.freeze(this); //congela a instância n1, impedindo alteração do valor que já foi previamente estabelecido.
 
     }
 
@@ -31,3 +32,6 @@ class Negociacao {
 //a função acima só será chmada se houver o new
 //se uma função é criada dentro de uma classe, ela é chamada de MÉTODO
 //o underline é uma convenção que diz que estas propriedades não podem ser acessadas
+//o get (geter) torna a propriedade somente leitura - um valor não pode ser atribuido 
+//(no html, foi tentado atribuir 1000, mas isso não acontece por causa do get)
+//(se utilizar o underline no inicio, o valor poderá ser alterado)

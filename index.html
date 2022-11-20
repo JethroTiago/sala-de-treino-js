@@ -60,8 +60,11 @@
     <script src="js/app/models/Negociacao.js"></script>
     <script>
 
-        var n1 = new Negociacao(new Date(), 5, 700);
-        var _volume = n1.getVolume();
+        let n1 = new Negociacao(new Date(), 5, 700);
+        n1.quantidade = 1000;
+        //console.log(Object.isFrozen(n1)); // o objeto n1 ainda não foi congelado então será exibido false
+        //Object.freeze(n1); // congela o objeto e impede alterações no seu valor
+        //console.log(Object.isFrozen(n1)); // o objeto está congelado então será exibido true
         console.log(n1.data);
         console.log(n1.quantidade);
         console.log(n1.valor);
