@@ -7,6 +7,8 @@ Meu espaço pessoal de treino de <strong>JavaScript</strong>
 
 Este repositório contem códigos usados para praticar a linguagem de programação JavaScript
 
+![JSTraining](https://user-images.githubusercontent.com/103612874/202919895-734246e0-cc6e-499f-aba7-bc648ea97928.jpg)
+
 ## Em desenvolvimento:
 
 * <strong>REACT</strong>
@@ -18,7 +20,8 @@ Este repositório contem códigos usados para praticar a linguagem de programaç
 
 Esta sala de treino visa reforçar os conhecimentos e as novas habilidades:
 
--- soon --
+* JQuery
+*
 
 
 <h2 id="autor" align="left">Autor:</h2>
