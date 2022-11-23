@@ -12,8 +12,9 @@ class NegociacaoController {
 
         event.preventDefault();
 
-        let data = new Date(this._inputData.value.replace(/-/g, ','));
+        let data = new Date(...this._inputData.value.split('-')); //o '...' é o Spread operator
         console.log(data);
+
 
     }
 }

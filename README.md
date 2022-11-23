@@ -21,7 +21,7 @@ Este repositório contem códigos usados para praticar a linguagem de programaç
 Esta sala de treino visa reforçar os conhecimentos e as novas habilidades:
 
 * JQuery
-*
+* Spread Operator
 
 
 <h2 id="autor" align="left">Autor:</h2>
