@@ -4,7 +4,7 @@ class NegociacaoController {
 
         let $ = document.querySelector.bind(document);
         this._inputData = $('#data');
-        this._inputQUantidade = $('#quantidade');
+        this._inputQuantidade = $('#quantidade');
         this._inputValor = $('#valor');
     }
     
@@ -14,11 +14,17 @@ class NegociacaoController {
 
         let data = new Date(
             ...this._inputData.value
-                .split('-')//o '...' é o Spread operator
+                .split('-')     //o '...' é o Spread operator
                 .map((item, indice) => item - indice % 2)
             );
 
-        console.log(data);
+        let negociacao = new Negociacao(
+            data,
+            this._inputQuantidade.value,
+            this._inputValor.value
+        );
+
+        console.log(negociacao);
 
     }
 }
