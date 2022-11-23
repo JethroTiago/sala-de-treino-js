@@ -6,14 +6,13 @@ class NegociacaoController {
         this._inputData = $('#data');
         this._inputQUantidade = $('#quantidade');
         this._inputValor = $('#valor');
-        
     }
     
     adiciona(event) {
 
         event.preventDefault();
 
-        let data = new Date(this._inputData.value.split('-'));
+        let data = new Date(this._inputData.value.replace(/-/g, ','));
         console.log(data);
 
     }
