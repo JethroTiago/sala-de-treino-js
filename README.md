@@ -14,7 +14,7 @@ Este repositório contem códigos usados para praticar a linguagem de programaç
 * <strong>REACT</strong>
 * Manipulação do DOM;
 * Programação orientada de objetos;
-* 
+* Node.js
 
 ## Aprendizados:
 
@@ -22,6 +22,9 @@ Esta sala de treino visa reforçar os conhecimentos e as novas habilidades:
 
 * JQuery
 * Spread Operator
+* Compiladores (Babel)
+* Padrões em JavaScript
+*
 
 
 <h2 id="autor" align="left">Autor:</h2>
