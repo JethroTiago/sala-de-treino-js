@@ -1,7 +1,7 @@
 ![logo-javascript](https://user-images.githubusercontent.com/103612874/202587581-ff231343-d815-4f5a-b684-17764fe785e5.png)
 
-# Sala de Treino JS
-Meu espaço pessoal de treino de <strong>JavaScript</strong>
+# Sala de Treino JS e React
+Meu espaço pessoal de treino de <strong>JavaScript</strong> e <strong>React</strong>
 
 ## Como Funciona
 
@@ -24,7 +24,8 @@ Esta sala de treino visa reforçar os conhecimentos e as novas habilidades:
 * Spread Operator
 * Compiladores (Babel)
 * Padrões em JavaScript
-*
+* Manipulação do Props
+* Configuração de lifecycle hooks
 
 
 <h2 id="autor" align="left">Autor:</h2>
